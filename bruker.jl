@@ -132,7 +132,7 @@ elseif fnum == 3
     spectrom=read_acqus()
     direct["ppm"], indirect["ppm"]= offset(parse(Float64,direct["nOBS"]),parse(Float64,indirect["nOBS"]),indirect["nLAB"],parse(Float16,spectrom["Temp"]))
     direct["ppm"], indirect2["ppm"]= offset(parse(Float64,direct["nOBS"]),parse(Float64,indirect2["nOBS"]),indirect2["nLAB"],parse(Float16,spectrom["Temp"]))
-    write_fid_D(direct,indirect,indirect2,spectrom)
+    write_fid_3D(direct,indirect,indirect2,spectrom)
 end
 
 #Run FID.com
