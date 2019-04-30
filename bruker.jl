@@ -101,7 +101,7 @@ function write_fid_3D(direct,indirect,indirect2,spectrom)
         write(f," -xCAR \t$(direct["ppm"]) -yCAR \t$(indirect["ppm"]) -zCAR \t$(indirect2["ppm"]) \\\n")
         write(f," -xLAB \t$(direct["nLAB"]) -yLAB \t$(indirect["nLAB"]) -zLAB \t$(indirect2["nLAB"]) \\\n")
         write(f," -ndim \t 3 -aq2D \t States \\\n")
-        write(f," -out ./test%03d.fid -verb -ov\n")
+        write(f," -out ./fid/test%03d.fid -verb -ov\n")
         write(f,"\n")
         write(f,"sleep 5")
     end
