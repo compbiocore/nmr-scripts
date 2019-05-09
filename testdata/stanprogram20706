@@ -1,7 +1,7 @@
-# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 ;b_hsqcetf3gpsi
 ;avance-version (15/03/12)
 ;(best)-HSQC
@@ -29,7 +29,7 @@
 
 
 prosol relations=<triple>
-# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl" 1
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl" 1
 ;Avance4.incl
 ;   for AV 4
 ;
@@ -39,31 +39,31 @@ prosol relations=<triple>
 ;$COMMENT=
 
 
-# 19 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 19 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
 ;setrtp0 denotes TimingController
 
 
-# 50 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
-# 51 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 50 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
+# 51 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
 
 
-# 63 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
-# 89 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
-# 90 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 63 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
+# 89 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
+# 90 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
 
 
-# 123 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 123 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
 ;#define LOWQ
 ;#define HIGHQ
 
 
 ;#define MIX_UP
 ;#define MIX_DOWN
-# 136 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 136 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Avance.incl"
 ;$Id: Avance4.incl,v 1.11 2016/11/11 13:43:39 ber Exp $
-# 31 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi" 2
+# 31 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi" 2
 
-# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl" 1
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Grad.incl" 1
 ;Grad4.incl  -  include file for Gradient Spectroscopy
 ;   for AV 4
 ;
@@ -72,15 +72,15 @@ prosol relations=<triple>
 ;$CLASS=HighRes Incl
 ;$COMMENT=
 
-# 26 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl"
+# 26 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Grad.incl"
 define list<gradient> EA=<EA>
 
 
-# 30 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl"
+# 30 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Grad.incl"
 ;$Id: Grad4.incl,v 1.6 2016/11/11 13:43:39 ber Exp $
-# 32 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi" 2
+# 32 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi" 2
 
-# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl" 1
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl" 1
 ;Delay.incl  -  include file for commonly used delays
 ;
 ;version (13/08/07)
@@ -88,7 +88,7 @@ define list<gradient> EA=<EA>
 ;$CLASS=HighRes Incl
 ;$COMMENT=
 
-# 9 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+# 9 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl"
 ;general delays
 
 define delay DELTA
@@ -119,7 +119,7 @@ define delay TAU6
 define delay TAU7
 define delay TAU8
 define delay TAU9
-# 40 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+# 40 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl"
 define delay INCR1
 define delay INCR2
 define delay INCR3
@@ -129,7 +129,7 @@ define delay INCR6
 
 
 ;delays for centering pulses
-# 50 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+# 50 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl"
 define delay CEN_HN1
 define delay CEN_HN2
 define delay CEN_HN3
@@ -148,7 +148,7 @@ define delay CEN_CP2
 
 
 ;loop counters
-# 69 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+# 69 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl"
 define loopcounter COUNTER
 define loopcounter SCALEF
 define loopcounter FACTOR1
@@ -159,19 +159,19 @@ define loopcounter FACTOR5
 define loopcounter FACTOR6
 
 
-# 80 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+# 80 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/Delay.incl"
 ;$Id: Delay.incl,v 1.15 2013/08/30 09:42:06 ber Exp $
-# 33 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi" 2
+# 33 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi" 2
 
 
 "p22=p21*2"
 "d11=30m"
 "d26=1s/(cnst4*4)"
-# 39 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 39 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 "p29=300u"
 
 
-# 43 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 43 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 "p41=(bwfac25/(cnst55*cnst51*bf1))*1000000"
 "spw25=plw1/((p41*90.0)/(p1*totrot25))*((p41*90.0)/(p1*totrot25))*(integfac25*integfac25)"
 "spw27=plw1/((p41*90.0)/(p1*totrot27))*((p41*90.0)/(p1*totrot27))*(integfac27*integfac27)"
@@ -187,12 +187,12 @@ define loopcounter FACTOR6
 "spw29=plw1/((p43*90.0)/(p1*totrot29))*((p43*90.0)/(p1*totrot29))*(integfac29*integfac29)"
 "spoal28=1"
 "spoal29=0"
-# 61 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 61 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 "d0=3u"
 
 "in0=inf1/2"
 
-# 66 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 66 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 "DELTA1=d26-p29-d16-p41*cnst41-p42*cnst40"
 "DELTA2=d26-p19-d16-p42/2"
 "DELTA3=d26-p29-d16-p43*cnst43-p42*cnst42"
@@ -200,7 +200,7 @@ define loopcounter FACTOR6
 
 
 "DELTA=p43-d0*2-p19-larger(p8,p44)"
-# 78 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 78 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 "spoff25=bf1*(cnst54/1000000)-o1"
 "spoff26=bf1*(cnst54/1000000)-o1"
 "spoff27=bf1*(cnst54/1000000)-o1"
@@ -209,7 +209,7 @@ define loopcounter FACTOR6
 "spoff30=0"
 
 
-# 1 "mc_line 86 file /root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi exp. def. part of mc cmd. before ze"
+# 1 "mc_line 86 file /root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi exp. def. part of mc cmd. before ze"
 ; dimension 2D; AQ_mode  (F1) Echo-Antiecho
 define delay MCWRK
 define delay MCREST
@@ -223,9 +223,9 @@ define loopcounter ST1CNT
 "ST1CNT = trunc(td1 / 2)"
 "MCREST = d11 - d11"
 "MCWRK = 0.066667*d11"
-# 86 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 86 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 1 ze
-# 1 "mc_line 86 file /root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi exp. def. of mc cmd. after ze"
+# 1 "mc_line 86 file /root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi exp. def. of mc cmd. after ze"
 LBLAV, MCWRK
       "d0=d0orig + t1loop * in0 "
       "phval5 = (ph1loop % 2) * 180"
@@ -239,17 +239,17 @@ LBLAV, MCWRK
       MCWRK
       "phval0 = ph1loop * 1"
       MCWRK setgrad EA
-# 87 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 87 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
   d11 pl26:f3
-# 1 "mc_line 88 file /root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi exp. start label for mc cmd."
+# 1 "mc_line 88 file /root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi exp. start label for mc cmd."
 2 MCWRK  * 7 do:f3
 LBLF1, MCWRK  * 7
 LBLST1, MCWRK 
   MCREST
-# 89 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 89 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 3 d1
   50u setrtp0|0 ctrlgrad 0
-# 92 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 92 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
   (p41:sp25 ph1)
   p29:gp3
   d16
@@ -264,14 +264,14 @@ LBLST1, MCWRK
   d16
 
   (p44:sp30 ph1)
-# 107 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 107 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
   (p21 ph3):f3
   DELTA
   d0 
 
 
   (center (p44:sp30 ph7) (p8:sp13 ph1):f2 )
-# 117 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 117 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
   d0
   p19:gp1*EA
   d16
@@ -289,7 +289,7 @@ LBLST1, MCWRK
   p19:gp5
   d16
   (p21 ph5):f3
-# 135 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 135 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
   (p43:sp29 ph2)
   p29:gp6
   d16
@@ -306,7 +306,7 @@ LBLST1, MCWRK
   d16 pl26:f3
   4u setrtp0^0 ctrlgrad 4047
   go=2 ph31 cpd3:f3
-# 1 "mc_line 151 file /root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi exp. mc cmd. in line"
+# 1 "mc_line 151 file /root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi exp. mc cmd. in line"
   MCWRK  do:f3 wr #0 if #0 zd 
 
   "ph1loop+=1"
@@ -344,7 +344,7 @@ LBLST1, MCWRK
   "ph1loop=0"
   MCWRK rf #0
   lo to LBLAV times tdav
-# 153 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 153 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 exit
    
 
@@ -416,7 +416,7 @@ ph31=0 2 2 0
 ;FnMODE: echo-antiecho
 ;cpd3: decoupling according to sequence defined by cpdprg3: garp4.p62
 ;pcpd3: f3 channel - 90 degree pulse for decoupling sequence
-# 226 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 226 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 ;use gradient ratio:
 ;  gp 1 : gp 2 : gp 3 : gp 4 : gp 5 : gp6
 ;    80 :  8.1 :  -13 :   50 :  -33 :  -2
@@ -430,7 +430,7 @@ ph31=0 2 2 0
 ;gpz4: 50%
 ;gpz5: -33%
 ;gpz6: -2%
-# 240 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 240 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 ;use gradient files:   
 ;gpnam1: SMSQ10.100
 ;gpnam2: SMSQ10.100
@@ -446,5 +446,5 @@ ph31=0 2 2 0
 ;1: for C-13 and N-15 labeled samples start experiment with 
 ;             option -DLABEL_CN (eda: ZGOPTNS)
                                           ;preprocessor-flags-end
-# 258 "/root/.topspin-BladeEpu/local_acqu/ppDirs/b_hsqcetf3gpsi"
+# 258 "/root/.topspin-BladeEpu/local_acqu/simulDirs/ppDirs/b_hsqcetf3gpsi"
 ;$Id: b_hsqcetf3gpsi,v 1.8 2015/03/12 17:02:55 ber Exp $

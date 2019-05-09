@@ -9,15 +9,15 @@
 #   Phase corrections should be inserted by hand.
 
 nmrPipe -in test.fid \
-| nmrPipe -fn SOL                                              \
-| nmrPipe  -fn SP -off 0.5 -end 1.00 -pow 1 -c 1.0    \
-| nmrPipe  -fn ZF -auto                               \
+| nmrPipe  -fn SOL                                    \
+| nmrPipe  -fn SP -off 0.5 -end 1.00 -pow 1 -c 0.5    \
+| nmrPipe  -fn ZF -size 2048                               \
 | nmrPipe  -fn FT -auto                               \
-| nmrPipe  -fn PS -p0 0.00 -p1 0.00 -di -verb         \
-| nmrPipe  -fn EXT -x1 10ppm -xn 6.0ppm -sw                                    \
+| nmrPipe  -fn PS -p0 137.60 -p1 0.00 -di -verb         \
+| nmrPipe  -fn EXT -x1 12ppm -xn 5.5ppm -sw                                    \
 | nmrPipe  -fn TP                                     \
-| nmrPipe  -fn SP -off 0.5 -end 1.00 -pow 1 -c 1.0    \
+| nmrPipe  -fn SP -off 0.5 -end 1.00 -pow 1 -c 0.5    \
 | nmrPipe  -fn ZF -auto                               \
 | nmrPipe  -fn FT -auto                               \
-| nmrPipe  -fn PS -p0 0.00 -p1 0.00 -di -verb         \
+| nmrPipe  -fn PS -p0 90.00 -p1 0.00 -di -verb         \
    -ov -out test.ft2

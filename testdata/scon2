@@ -1,14 +1,14 @@
-##TITLE= Parameter file, TopSpin 3.5 pl 7
+##TITLE= Parameter file, TopSpin 4.0.3
 ##JCAMPDX= 5.0
 ##DATATYPE= Parameter Values
-##NPOINTS= 2	$$ modification sequence number
+##NPOINTS= 1	$$ modification sequence number
 ##ORIGIN= Bruker BioSpin GmbH
 ##OWNER= lisilab
-$$ 2019-04-18 05:59:24.293 -0400  lisilab@efz.brown
-$$ /data/lisilab/Kyle/8/scon2
-$$ process /opt/topspin3.5pl7/prog/mod/go4
-##$BLKTR= (0..19)
-3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+$$ 2019-05-02 12:31:42.645 -0400  lisilab@szz
+$$ /data/lisilab/Kyle/15/scon2
+$$ process /opt/topspin4.0.3/prog/mod/acqdataserver
+##$BLKTR= (0..32)
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
 ##$DE1= 4.5
 ##$DEADC= 0.5
 ##$DEPA= 4.5
@@ -17,8 +17,8 @@ $$ process /opt/topspin3.5pl7/prog/mod/go4
 ##$GRADCHAN= 0
 ##$GRADPRE= (0..1)
 10 10
-##$HD_BLKTR= (0..19)
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$HD_BLKTR= (0..32)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 ##$HD_DE1= 5
 ##$HD_DEADC= 0
 ##$HD_DEPA= 2.5
